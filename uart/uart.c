@@ -73,6 +73,6 @@ char uart_read() {
         UART->STOPRX = 1;
         return rx;
     } else {
-        return '\0';
+        return ('\0');
     }
 }
