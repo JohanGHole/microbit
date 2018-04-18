@@ -57,3 +57,10 @@ void twi_multi_read(
 );
 
 void twi_init();
+
+void twi_multi_write(
+uint8_t slave_address,
+uint8_t start_register,
+int registers_to_write,
+uint8_t * data_buffer
+);
